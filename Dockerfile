@@ -1,3 +1,3 @@
-FROM ubuntu
-RUN apt-get update
-CMD ["echo", "My first image"]
+FROM alpine:latest
+
+CMD ["echo", "Hello, World from Docker!"]
